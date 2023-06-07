@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<head>
+    <link rel="stylesheet" href="{% static 'card.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.89/Bacon.min.js">
+    <script src="js/script.js"></script>
+</head>
+<body>
+   
+
+<div class="container">
+  
+    <aside class="profile-card">
+        <header>
+            <!-- my avatar -->
+            <a target="_blank" href="home">
+                <img src="data:image/png;base64,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" alt="pic">
+            <!-- the username -->
+            <h1 class="animated rubberBand delay" id="rubberBand" onclick="changeBG('rubberBand','#ffdcbc');">
+                payment success
+            </h1>
+            <!-- and role or location -->
+             </header>
+        <!-- bit of a bio -->
+        <div class="profile-bio">
+    <h1>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Iam Kevin Hamlyn.", "I am Creative and a little artsy.", " 1st Year Interactive Media Design Student.", "Somewhat of a Shutter Bug.", "Working on improving my skill set everyday!" ]'>
+        <span class="wrap"></span>            
+        </a>
+    </h1>
+            
+            <p class="bio">thank you for using our site</p>
+           
+            
+        </div>
+        
+    </aside>
+</div>
+</body>
+</html>

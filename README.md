@@ -9,4 +9,4 @@ Major payment gateway ( Razorpay) integrated in Django.
 ## Screenshots - 
 
 ### Razorpay - 
-![readme-razorpay]("https://wpeverest.com/wp-content/uploads/2022/05/razorpay.jpg")
+![readme-razorpay](https://wpeverest.com/wp-content/uploads/2022/05/razorpay.jpg)
